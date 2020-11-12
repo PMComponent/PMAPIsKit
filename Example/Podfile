@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PMAPIsKit_Example' do
+  pod 'PMAPIsKit', :path => '../'
+
+  target 'PMAPIsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
