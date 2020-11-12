@@ -1,8 +1,11 @@
 use_frameworks!
+source 'https://github.com/PMComponent/PMSpace.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 
 target 'PMAPIsKit_Example' do
+  pod 'PMToolsKit'
   pod 'PMAPIsKit', :path => '../'
 
   target 'PMAPIsKit_Tests' do
